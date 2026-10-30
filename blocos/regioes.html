@@ -1,0 +1,57 @@
+<section class="blk-reg" id="regioes">
+  <div class="wrap blk-reg__in">
+    <div class="blk-reg__txt">
+      <p class="blk-reg__eyebrow" data-reveal>Cirurgia facial</p>
+      <h2 class="blk-reg__titulo" data-reveal>Microcirurgia, região por região</h2>
+      <p class="blk-reg__lead" data-acende>Procedimentos de menor porte, feitos por médico, pensados para a paciente voltar à rotina em pouco tempo. Cada região do rosto tem a sua técnica, e a avaliação diz qual delas faz sentido para você.</p>
+    </div>
+    <ol class="blk-reg__grade">
+      <li class="blk-reg__card" data-reveal style="--d:0ms">
+        <span class="blk-reg__num">01</span>
+        <span class="blk-reg__ico"><!--icone:olho--></span>
+        <h3>Olhar</h3>
+        <p>Blefaroplastia para o excesso de pele das pálpebras, e lifting temporal para o canto dos olhos.</p>
+      </li>
+      <li class="blk-reg__card" data-reveal style="--d:80ms">
+        <span class="blk-reg__num">02</span>
+        <span class="blk-reg__ico"><!--icone:rosto--></span>
+        <h3>Nariz</h3>
+        <p>Ponta fina, lifting nasal, alectomia e redução da giba óssea para ajustar o perfil.</p>
+      </li>
+      <li class="blk-reg__card" data-reveal style="--d:160ms">
+        <span class="blk-reg__num">03</span>
+        <span class="blk-reg__ico"><!--icone:check--></span>
+        <h3>Orelhas</h3>
+        <p>Otomodelação para orelhas de abano e lobuloplastia para o lóbulo alongado pelo brinco.</p>
+      </li>
+      <li class="blk-reg__card" data-reveal style="--d:240ms">
+        <span class="blk-reg__num">04</span>
+        <span class="blk-reg__ico"><!--icone:pele--></span>
+        <h3>Contorno e papada</h3>
+        <p>Lifting facial com ancoragem fixa, micro lipo de papada e bichectomia para redesenhar o terço inferior.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-reg{padding-block:var(--sp-section);background:var(--bg-2);color:var(--ink)}
+.blk-reg__in{display:grid;gap:var(--sp-5)}
+.blk-reg__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-reg__titulo{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-reg__lead{margin:var(--sp-3) 0 0;max-width:34rem;font-size:1.1rem;line-height:1.65;color:var(--ink)}
+.blk-reg__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-reg__card{position:relative;padding:var(--sp-4);background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg)}
+.blk-reg__num{position:absolute;top:var(--sp-3);right:var(--sp-4);font-family:var(--f-display);font-size:1rem;letter-spacing:.08em;color:var(--ink-dim)}
+.blk-reg__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--pulse)}
+.blk-reg__ico svg{width:100%;height:100%}
+.blk-reg__card h3{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-weight:500;font-size:1.45rem;color:var(--ink)}
+.blk-reg__card p{margin:var(--sp-2) 0 0;line-height:1.55;color:var(--ink-soft)}
+@media (min-width:40rem){
+  .blk-reg__grade{grid-template-columns:1fr 1fr}
+}
+@media (min-width:64rem){
+  .blk-reg__in{grid-template-columns:5fr 7fr;gap:5rem;align-items:start}
+  .blk-reg__txt{position:sticky;top:7rem}
+}
+</style>

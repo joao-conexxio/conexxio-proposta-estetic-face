@@ -1,0 +1,256 @@
+{
+  "slug": "estetic-face",
+  "negocio": {
+    "nome": "Estetic Face Anápolis",
+    "logo": "brand/logo.svg",
+    "whatsapp": "5562993992299",
+    "unidades": [
+      {
+        "bairro": "Jundiaí · Anápolis",
+        "endereco": "R. Des. Vicente Miguel, Qd. 57, Lt. 2, Sala 03 · Jundiaí · Anápolis – GO · 75110-230",
+        "telefone": "(62) 99399-2299",
+        "horario": "Segunda a sexta, das 9h às 19h · sábado, das 9h às 13h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#592C82",
+    "brand2": "#3E1D5E",
+    "ink": "#2A2233",
+    "bg": "#FBF8FD",
+    "pulse": "#592C82",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Fraunces",
+    "fontBody": "Manrope",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Por região",
+            "href": "#regioes"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Anápolis · GO",
+        "h1": "Cirurgia facial em Anápolis",
+        "lead": "Pálpebras, nariz, orelhas e papada em microcirurgia feita por médico, com harmonização e pele no mesmo endereço.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver por região",
+        "ctaSecundarioHref": "#regioes",
+        "selo": "Estetic Face · Anápolis · Cirurgia facial",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Blefaroplastia",
+          "Otomodelação",
+          "Lobuloplastia",
+          "Nariz ponta fina",
+          "Micro lipo de papada",
+          "Lifting facial",
+          "Bichectomia",
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimuladores de colágeno",
+          "Fios de PDO",
+          "Microagulhamento"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quem já passou por aqui",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "154",
+            "rotulo": "avaliações de pacientes",
+            "contar": 154
+          },
+          {
+            "valor": "+20 mil",
+            "rotulo": "microcirurgias na rede Estetic Face"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/regioes.html"
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "O médico está em todo procedimento, não só na assinatura do protocolo.",
+        "texto": [
+          "A Estetic Face Anápolis faz parte de uma rede de clínicas em que cada protocolo é montado e acompanhado por médicos. Aqui, a equipe reúne médicos e profissionais de estética que avaliam o rosto inteiro antes de indicar qualquer técnica.",
+          "A avaliação existe para isso: entender o que incomoda, dizer o que dá para fazer e o que não vale a pena, e montar um plano com prazo e valor claros."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Além da cirurgia",
+        "lead": "Quem vem pela microcirurgia costuma cuidar também da pele e do contorno. Tudo é feito no mesmo endereço.",
+        "itens": [
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Toxina botulínica (também para enxaqueca e suor excessivo), preenchimento de lábios, olheiras, mandíbula e mento, bioestimuladores de colágeno, rinomodelação e fios de PDO.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Gerenciamento da pele",
+            "descricao": "Protocolos para manchas e melasma, cicatrizes de acne, poros, oleosidade e flacidez, com peelings, microagulhamento e drug delivery, definidos depois de avaliar a pele.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Harmonização corporal",
+            "descricao": "Bioplastia de glúteos, bioestímulo de colágeno em pescoço, colo e mãos, e fios de PDO para o corpo.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Saúde e bem-estar",
+            "descricao": "Nutrição, ozonioterapia e plasma rico em plaquetas para quem quer cuidar do resultado também por dentro.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Você chama no WhatsApp",
+            "texto": "A recepção entende o que você procura e marca a avaliação no horário que der para você.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação com a equipe",
+            "texto": "O profissional examina, explica as opções e diz com franqueza o que esperar de cada uma.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Plano e procedimento",
+            "texto": "Você sai com o plano, o valor e as formas de parcelar. O procedimento é marcado à parte.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Acompanhamento",
+            "texto": "Depois do procedimento, a clínica acompanha a recuperação e marca o retorno quando ele fizer parte do tratamento.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          {
+            "p": "Quem faz a microcirurgia?",
+            "r": "Sempre um médico treinado na técnica. Os protocolos da rede são elaborados e supervisionados por médicos."
+          },
+          {
+            "p": "Quanto tempo fico afastada da rotina?",
+            "r": "Depende do procedimento e da região. São cirurgias de menor porte, e o tempo de recuperação de cada uma é explicado na avaliação, antes de qualquer decisão."
+          },
+          {
+            "p": "A avaliação tem custo?",
+            "r": "A avaliação é o primeiro passo e serve para montar o seu plano. Pergunte as condições à recepção pelo WhatsApp."
+          },
+          {
+            "p": "Dá para parcelar?",
+            "r": "Sim. Os procedimentos podem ser parcelados sem juros no cartão; o número de parcelas é informado junto com o plano."
+          },
+          {
+            "p": "De quanto em quanto tempo refaço a toxina?",
+            "r": "O efeito costuma durar alguns meses e varia de pessoa para pessoa. O intervalo do seu retorno é combinado na aplicação."
+          },
+          {
+            "p": "A clínica mudou de endereço?",
+            "r": "Sim. A unidade agora fica no Jundiaí, na Rua Desembargador Vicente Miguel, sala 03."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Mande uma mensagem dizendo o que te incomoda. A recepção responde e encontra um horário com a equipe.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de paciente para paciente. Todo procedimento depende de avaliação prévia.",
+        "links": [
+          {
+            "texto": "Por região",
+            "href": "#regioes"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}
